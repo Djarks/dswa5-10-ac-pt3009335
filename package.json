@@ -1,0 +1,32 @@
+{
+  "name": "aula_11",
+  "version": "1.0.0",
+  "description": "Integrando a Aplicação e MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^0.8.8",
+    "express": "^4.17.1",
+    "express-load": "^1.1.16",
+    "method-override": "^2.3.10",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djarks/dswa5-aula9-ac-pt3009335.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Djarks/dswa5-aula9-ac-pt3009335/issues"
+  },
+  "homepage": "https://github.com/Djarks/dswa5-aula9-ac-pt3009335#readme"
+}
